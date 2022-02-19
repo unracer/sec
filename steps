@@ -7,7 +7,27 @@
 -заголовки запросов,ответов
 
 2) точка входа
--cve
+#injection
+-xss
+-ssti
+-sqli
+-rce(os,programLang)
+-ssi
+-xxe
+-xpath
+-jsoni
+-xslt
+#auth
+-easy cred prediction
+-insufficient session expiration
+-weak password recovery
+#access controll
+-idor
+-rfi
+-lfi
+-ssrf
+-path traversal
+-path prediction
 
 3) разведка ос
 -пользователи
