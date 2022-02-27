@@ -1,3 +1,3 @@
-# web-sec
+# sec
 
 be safe
