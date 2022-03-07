@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "easyScan.sh -i <ip> -d <domain>" $(date +"%T") ;
+echo "sudo easyScan.sh -i <ip> -d <domain>" $(date +"%T") ;
 while getopts i:d: flag
 do
     case "${flag}" in
