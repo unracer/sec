@@ -2,18 +2,18 @@
 *разные инструменты дают разный результат
 
 1) разведка сервера
--порты
--директории
--поддомены
--заголовки запросов,ответов
--исходные коды
+- порты
+- директории
+- поддомены
+- заголовки запросов,ответов
+- исходные коды
 
 2) точка входа
 #injection
 -xss
 -ssti
 -sqli
--rce(os,programLang)
+-rce(os,lang)
 -ssi
 -xxe
 -xpath
@@ -32,15 +32,18 @@
 -path prediction
 
 3) разведка ос
--пользователи
--переменные среды
--процессы
+- пользователи
+- переменные среды
+- процессы
 
 4)эскалация
--файлы рута
+- файлы рута
 
 5)закрепление
-cron
-/etc/nsswitch.conf альтернативная passwd
-~/.ssh/authorized_keys
-APT::Update::Pre-Invoke {"CMD"}; >> /etc/apt/apt.conf.d/
+- cron
+- /etc/nsswitch.conf альтернативная passwd
+- ~/.ssh/authorized_keys
+- APT::Update::Pre-Invoke {"CMD"}; >> /etc/apt/apt.conf.d/
+
+*6)сокрытие
+- base64 encode
