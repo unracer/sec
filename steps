@@ -26,7 +26,7 @@
 #access controll
 -idor
 -rfi
--lfi
+-lfi > conf > cred
 -ssrf
 -path traversal
 -path prediction
