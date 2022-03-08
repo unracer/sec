@@ -46,4 +46,7 @@
 - APT::Update::Pre-Invoke {"CMD"}; >> /etc/apt/apt.conf.d/
 
 *6)сокрытие
-- base64 encode
+- wrapper base64
+
+*7)research
+- 
