@@ -1,6 +1,6 @@
 
 # TASK: WE NEED SHELL
-# HOW? two ways = <misconfig> or <reverse engineer>
+# HOW? two ways = \<misconfig\> or \<reverse engineer\>
 
 ### *you should know, different tools give different result
 
