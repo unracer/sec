@@ -44,7 +44,8 @@
   tasklist / ps aux
 
 ### (4) priv escalation
-- files of admin user
+- files of admin user  
+  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md
 
 ### (5) priv fixation
 - cron
