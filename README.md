@@ -36,16 +36,19 @@
 - path prediction
 
 ### (3) recon os
-- net users / passwd, shadow
-- env / env
-- tasklist / ps aux
+- user  
+  net users / passwd, shadow
+- environment  
+  env / env
+- processes  
+  tasklist / ps aux
 
 ### (4) priv escalation
 - files of admin user
 
 ### (5) priv fixation
 - cron
-- /etc/nsswitch.conf - alternative passwd
+- /etc/nsswitch.conf (alternative passwd)
 - ~/.ssh/authorized_keys
 - APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/
 
