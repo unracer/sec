@@ -7,10 +7,10 @@
   
 ### (1) recon server
 - ports
-- directory
+- directory of tech
 - subdomain
 - headers of request / response
-- src technologies
+- technologies src
 
 ### (2) entry point web / netServices
 ###### injection
@@ -36,9 +36,9 @@
 - path prediction
 
 ### (3) recon os
-- users
-- environments
-- processes
+- net users / passwd, shadow
+- env / env
+- tasklist / ps aux
 
 ### (4) priv escalation
 - files of admin user
@@ -53,3 +53,5 @@
 - base64 wrapper
 
 ### +) research
+- documentation
+- github src
