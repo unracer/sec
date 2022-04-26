@@ -13,7 +13,7 @@
 - src technologies
 
 (2) entry point web / netServices
-##### injection
+#####   injection
 - xss
 - ssti
 - sqli
@@ -23,11 +23,11 @@
 - xpath
 - jsoni
 - xslt
-##### auth
+#####   auth
 - easy cred prediction
 - insufficient session expiration
 - weak password recovery
-##### access controll
+#####   access controll
 - idor
 - rfi
 - lfi > conf > cred
