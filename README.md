@@ -45,7 +45,7 @@
 
 ### (4) priv escalation
 - files of admin user  
-  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md
+  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#eop---processes-enumeration-and-tasks
 
 ### (5) priv fixation
 - cron
