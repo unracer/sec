@@ -2,7 +2,7 @@
 # TASK: WE NEED SHELL
 # HOW? two ways = \<misconfig\> or \<reverse engineer\>
 
-## *you should know, different tools give different result
+## *you should know: different tools give different result
 
   
 ### (1) recon server
@@ -42,10 +42,18 @@
   env / env
 - processes  
   tasklist / ps aux
+  
+### (4) post exploitation
+- evilWinRm
+- psexec
+- rpc..(etc)..exec
 
 ### (4) priv escalation
 - files of admin user  
-  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#eop---processes-enumeration-and-tasks
+  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#  
+  icacls | wmic service list full | find /i "pathname"  
+  exploit/windows/local/service_permis  
+  dll hijacking  
 
 ### (5) priv fixation
 - cron
