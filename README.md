@@ -1,10 +1,16 @@
+TASK:  
+- WE NEED SHELL  
 
-# TASK: WE NEED SHELL
-# HOW? two ways = \<misconfig\> or \<reverse engineer\>
+HOW:  
+- \<misconfig\> 
+- \<reverse engineer\>   
 
-## *you should know: different tools give different result
+YOU SHOULD KNOW:  
+- different tools give different result 
 
-  
+#
+\
+STEPS:
 ### (1) recon server
 - ports
 - directory of tech
@@ -13,56 +19,63 @@
 - technologies src
 
 ### (2) entry point web / netServices
-###### injection
-- xss
-- ssti
-- sqli
-- rce(os,lang)
-- ssi
-- xxe
-- xpath
-- jsoni
-- xslt
-###### auth
-- easy cred prediction
-- insufficient session expiration
-- weak password recovery
-###### access controll
-- idor
-- rfi
-- lfi > conf > cred
-- ssrf
-- path traversal
-- path prediction
+- injection  
+  xss  
+  ssti  
+  sqli  
+  rce(os,lang)  
+  ssi  
+  xxe  
+  xpath  
+  jsoni  
+  xslt  
+- auth  
+  easy cred prediction  
+  insufficient session expiration  
+  weak password recovery  
+- access controll  
+  idor  
+  rfi  
+  lfi > conf > cred  
+  ssrf  
+  path traversal  
+  path prediction  
 
 ### (3) recon os
 - user  
-  net users / passwd, shadow
+  net users  
+  passwd  
+  shadow  
 - environment  
-  env / env
+  env  
 - processes  
-  tasklist / ps aux
+  tasklist  
+  ps aux  
   
 ### (4) post exploitation
-- evilWinRm
-- psexec
-- rpc..(etc)..exec
+- simulators  
+  evilWinRm  
+  psexec  
+  (rpc,smb,..)exec  
 
 ### (4) priv escalation
-- files of admin user  
-  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#  
+- files of admin  
+  payloadallthethings  
   icacls | wmic service list full | find /i "pathname"  
   exploit/windows/local/service_permis  
   dll hijacking  
 
 ### (5) priv fixation
-- cron
-- /etc/nsswitch.conf (alternative passwd)
-- ~/.ssh/authorized_keys
-- APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/
+- tasks  
+  cron  
+  APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/  
+- clients  
+  /etc/nsswitch.conf (alternative passwd)  
+  ~/.ssh/authorized_keys  
 
 ### +) hiding actions (bypass ids)
-- base64 wrapper
+- encoding  
+  base64 wrapper
 
 ### +) research
 - documentation
