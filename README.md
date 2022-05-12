@@ -40,8 +40,15 @@ STEPS:
   ssrf  
   path traversal  
   path prediction  
+  
+### (3) post exploitation
+- simulators  
+  evilWinRm  
+  psexec  
+  (rpc,smb,..)exec  
+  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 
-### (3) recon os
+### (4) recon os
 - user  
   net users  
   passwd  
@@ -51,21 +58,15 @@ STEPS:
 - processes  
   tasklist  
   ps aux  
-  
-### (4) post exploitation
-- simulators  
-  evilWinRm  
-  psexec  
-  (rpc,smb,..)exec  
 
-### (4) priv escalation
+### (5) priv escalation
 - files of admin  
-  payloadallthethings  
+  https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md   
   icacls | wmic service list full | find /i "pathname"  
   exploit/windows/local/service_permis  
   dll hijacking  
 
-### (5) priv fixation
+### (6) priv fixation
 - tasks  
   cron  
   APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/  
