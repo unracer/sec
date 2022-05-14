@@ -66,7 +66,9 @@ STEPS:
   exploit/windows/local/service_permis  
   dll hijacking  
   winpeass  
-  export the password of the local computer account of the domain
+- export the password  
+  local computer account  
+  local computer account of the domain
 
 ### (6) priv fixation
 - tasks  
