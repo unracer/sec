@@ -65,6 +65,7 @@ STEPS:
   icacls | wmic service list full | find /i "pathname"  
   exploit/windows/local/service_permis  
   dll hijacking  
+  winpeass  
 
 ### (6) priv fixation
 - tasks  
@@ -79,5 +80,6 @@ STEPS:
   base64 wrapper
 
 ### +) research
-- documentation
-- github src
+- osint  
+  documentation  
+  github src  
