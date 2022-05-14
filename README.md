@@ -66,6 +66,7 @@ STEPS:
   + exploit/windows/local/service_permis  
   + dll hijacking  
   + winpeas https://github.com/carlospolop/PEASS-ng/tree/winpeas_dev/winPEAS/winPEASexe/binaries/x64/Release  
+  https://github.com/carlospolop/PEASS-ng/releases/download/20220202/winPEASany_ofs.exe  
 - export the password  
   + local computer account  
   + local computer account of the domain
