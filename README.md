@@ -83,8 +83,11 @@ STEPS:
 ### +) hiding actions (bypass ids)
 - encoding  
   + base64 wrapper
+- downgrade secure version
+  + powershell -version 2
 
 ### +) research
 - osint  
+  + google dork
   + documentation  
   + github src  
