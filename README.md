@@ -23,7 +23,7 @@ STEPS:
   + xss  
   + ssti  
   + sqli  
-  + rce(os,lang)  
+  + rce 
   + ssi  
   + xxe  
   + xpath  
@@ -36,7 +36,7 @@ STEPS:
 - access controll  
   + idor  
   + rfi  
-  + lfi > conf > cred  
+  + lfi/lfd  
   + ssrf  
   + path traversal  
   + path prediction  
@@ -91,3 +91,7 @@ STEPS:
   + google dork
   + documentation  
   + github src  
+
+### +) fuzzing
+- arethmetic
+  + https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Intruder/ssti.fuzz
