@@ -8,8 +8,8 @@ HOW:
 YOU SHOULD KNOW:  
 - different tools give different result 
 
-#
-\
+#  
+
 STEPS:
 ### (1) recon server
 - ports
@@ -18,7 +18,13 @@ STEPS:
 - headers of request / response
 - technologies src
 
-### (2) entry point web / netServices
+### (2) entry point network
+- injection
+  + nat slipstreaming
+- access controll 
+  + arp/dhcp/stp spoof
+
+### (2) entry point web
 - injection  
   + xss  
   + ssti  
@@ -29,6 +35,7 @@ STEPS:
   + xpath  
   + jsoni  
   + xslt  
+  + ssrf
 - auth  
   + easy cred prediction  
   + insufficient session expiration  
