@@ -18,12 +18,6 @@ STEPS:
 - headers of request / response
 - technologies src
 
-### (2) entry point network
-- injection
-  + nat slipstreaming
-- access controll 
-  + arp/dhcp/stp spoof
-
 ### (2) entry point web
 - injection  
   + xss  
@@ -102,3 +96,9 @@ STEPS:
 ### +) fuzzing
 - arethmetic
   + https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Intruder/ssti.fuzz
+
+### +) field expansion
+- injection
+  + nat slipstreaming
+- access controll 
+  + arp/dhcp/stp spoof
