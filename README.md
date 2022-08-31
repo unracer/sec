@@ -1,12 +1,12 @@
 TASK:  
-- WE NEED SHELL  
+- we need shell  
 
 HOW:  
 - \<misconfig\> 
 - \<reverse engineer\>   
 
 YOU SHOULD KNOW:  
-- different tools give different result 
+- different tools of one task give different result 
 
 #  
 
@@ -44,10 +44,9 @@ STEPS:
   
 ### (3) post exploitation
 - simulators  
-  + evilWinRm  
-  + psexec  
-  + (rpc,smb,..)exec  
-  + reverseShell https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+  + evilWinRm     
+  + reverseShell (PayloadsAllTheThings)
+  + <ps,rpc,smb,..>exec
 
 ### (4) recon os
 - user  
@@ -56,18 +55,17 @@ STEPS:
   + shadow  
 - environment  
   + env  
-- processes  
+- process  
   + tasklist  
   + ps aux  
 
 ### (5) priv escalation
 - files of admin  
-  + payloadallthethings https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md   
+  + payloadallthethings PayloadsAllTheThings/Windows%20-%20Privilege%20Escalation.md   
   + icacls | wmic service list full | find /i "pathname"  
   + exploit/windows/local/service_permis  
   + dll hijacking  
-  + winpeas https://github.com/carlospolop/PEASS-ng/tree/winpeas_dev/winPEAS/winPEASexe/binaries/x64/Release  
-  https://github.com/carlospolop/PEASS-ng/releases/download/20220202/winPEASany_ofs.exe  
+  + winpeas https://github.com/carlospolop/PEASS-ng/releases/download/20220202/winPEASany_ofs.exe  
 - export/dump the password  
   + local computer account  
   + local computer account of the domain
@@ -84,6 +82,7 @@ STEPS:
 ### +) hiding actions (bypass ids)
 - encoding  
   + base64 wrapper
+  + filter php
 - downgrade secure version
   + powershell -version 2
 
@@ -102,3 +101,6 @@ STEPS:
   + nat slipstreaming
 - access controll 
   + arp/dhcp/stp spoof
+
+### +) exapmle
+- lfi to rce    
