@@ -42,13 +42,17 @@ STEPS:
   + path traversal  
   + path prediction  
   
-### (3) post exploitation
+### (3) first access
+- content delivery
+  + pypi server
+  
+### (4) post exploitation
 - simulators  
   + evilWinRm     
   + reverseShell (PayloadsAllTheThings)
   + <ps,rpc,smb,..>exec
 
-### (4) recon os
+### (5) recon os
 - user  
   + net users  
   + passwd  
@@ -59,7 +63,7 @@ STEPS:
   + tasklist  
   + ps aux  
 
-### (5) priv escalation
+### (6) priv escalation
 - files of admin  
   + payloadallthethings PayloadsAllTheThings/Windows%20-%20Privilege%20Escalation.md   
   + icacls | wmic service list full | find /i "pathname"  
@@ -71,7 +75,7 @@ STEPS:
   + local computer account of the domain
   + laps
 
-### (6) priv fixation
+### (7) priv fixation
 - tasks  
   + cron  
   + APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/  
@@ -103,4 +107,4 @@ STEPS:
   + arp/dhcp/stp spoof
 
 ### +) exapmle
-- lfi to rce    
+- ssti by pypi to rce    
