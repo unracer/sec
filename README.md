@@ -2,11 +2,14 @@ TASK:
 - we need shell  
 
 HOW:  
-- \<misconfig\> 
-- \<reverse engineer\>   
+- \<misconfig\> TRY ALL FUNCTIONS    
+- \<reverse engineer\>    
 
 YOU SHOULD KNOW:  
 - different tools of one task give different result 
+
+LINKS:
+- h4cktriks \<entry point\>
 
 #  
 
