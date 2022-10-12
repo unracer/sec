@@ -110,4 +110,5 @@ STEPS:
   + arp/dhcp/stp spoof
 
 ### +) exapmle
-- ssti by pypi to rce    
+- ssti by pypi to rce   
+- sqli > dev tools > save as cUrl > sqlmap -u '' --tables
