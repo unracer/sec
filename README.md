@@ -112,3 +112,6 @@ STEPS:
 ### +) exapmle
 - ssti by pypi to rce   
 - sqli > dev tools > save as cUrl > sqlmap -u '' --tables
+
+### +) spec tools
+- user port number in hacktricks
