@@ -19,6 +19,7 @@ STEPS:
 - directory of tech
 - subdomain
 - headers of request / response
+  + HOST: FUZZ.fuzz.fuzz
 - technologies src
 
 ### (2) entry point web
@@ -112,6 +113,7 @@ STEPS:
 ### +) exapmle
 - ssti by pypi to rce   
 - sqli > dev tools > save as cUrl > sqlmap -u '' --tables
+- ffuf -w subdomains-top1million-5000.txt -u http://preprod-FUZZ.trick.htb (search subdns and mix with recursion)
 
 ### +) spec tools
 - user port number in hacktricks
