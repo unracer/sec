@@ -27,9 +27,10 @@ STEPS:
   + (evasion NAC) - Bypassing 802.1X
   + (Abusing DMZ) - Double Tagging
   + (Manipulation of VLAN Databases) - VTP Injection
+  + nat slipstreaming
 - recon  
   + (Information Gathering, DoS) - CDP x LLDP Attacks
-  + DTP Switch Spoofing
+  + DTP Switch Spoofing  
 - mitm  
   + MAC Spoofing
   + CAM Table Overflow
@@ -37,7 +38,7 @@ STEPS:
   + (DNS Spoofing) - DHCP Spoofing
   + ICMP Redirect
 - dos  
-  +
+  + DHCP Exhaution  
 - hidingActions  
   + (VLAN Segmentation Bypass) - DTP Switch Spoofing
   + (Bypassing IPS/IDS, Firewall) - IP Spoofing
@@ -117,44 +118,32 @@ STEPS:
   + local computer account of the domain
   + laps
 
-### +) hiding actions (bypass ids)
+### +) hiding actions (bypass IDetectS/IPrevS)
 - encoding  
   + base64 wrapper
-  + filter php
+  + filter php,etc.
 - downgrade secure version
-  + powershell -version 2
+  + powershell -version 2 (ex.)
 
 ### +) first access helper
 - content delivery
   + pypi server
 
 ### +) research
-- osint  
-  + google dork
-  + documentation  
-  + github src  
+- OpenSrcINT     
+  + github  
+  + googleDork
+  + bruteTechDocSite
 
 ### +) fuzzing
-- arethmetic
+- try arethmetic exec
   + https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Intruder/ssti.fuzz
 
-### +) field expansion
-- injection
-  + nat slipstreaming
-- access controll 
-  + arp/dhcp/stp spoof
-
-### +) exapmle
-- ssti by pypi to rce   
-- sqli > dev tools > save as cUrl > sqlmap -u '' --tables
-- ffuf -w subdomains-top1million-5000.txt -u http://preprod-FUZZ.trick.htb (search subdns and mix with recursion)
-
-### +) spec tools
-- user port number in hacktricks
+#
 
 COMTRIBUTION - format
 ### (step number) step  
-- space (injection,auth..)
- + action (lfi,rce..)
+- space (injection,auth..)  
+  + action (lfi,rce..)  
  
 
