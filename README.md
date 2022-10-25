@@ -1,3 +1,9 @@
+IDEA: 
+- make abstraction for undersanding of inf0s3c
+
+UNDERSTANDING (for non-eng country):
+- vu1n3rs is action witch you can make, but is not a magic steps
+
 TASK:  
 - we need shell  
 
@@ -14,15 +20,43 @@ LINKS:
 #  
 
 STEPS:
+### (0) access network (inguz@tg)
+- simple access
+  + (Blackhole, Wormhole) - Abusing Dynamic Routing (OSPF, EIGRP, RIP, IS-IS)
+  + (Malicious traffic Redirection) - Abusing FHRP Protocols (HSRP, VRRP, GLBP)
+  + (evasion NAC) - Bypassing 802.1X
+  + (Abusing DMZ) - Double Tagging
+  + (Manipulation of VLAN Databases) - VTP Injection
+- recon  
+  + (Information Gathering, DoS) - CDP x LLDP Attacks
+  + DTP Switch Spoofing
+- mitm  
+  + MAC Spoofing
+  + CAM Table Overflow
+  + STP Root Hijacking
+  + (DNS Spoofing) - DHCP Spoofing
+  + ICMP Redirect
+- dos  
+  +
+- hidingActions  
+  + (VLAN Segmentation Bypass) - DTP Switch Spoofing
+  + (Bypassing IPS/IDS, Firewall) - IP Spoofing
+
 ### (1) recon server
 - ports
-- directory of tech
+- directory of tech(apache,cms,framework..)
 - subdomain
 - headers of request / response
-  + HOST: FUZZ.fuzz.fuzz
+  + HOST: FUZZ.nofuzz.nofuzz
 - technologies src
 
-### (2) entry point web
+### (2) entry point net
+- auth
+  + easy cred
+- access control  
+  + lfi
+
+### (2.1) entry point web
 - injection  
   + xss  
   + ssti  
@@ -45,18 +79,22 @@ STEPS:
   + ssrf  
   + path traversal  
   + path prediction  
-  
-### (3) first access
-- content delivery
-  + pypi server
-  
+
+### (3) priv fixation
+- tasks  
+  + cron  
+  + APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/  
+- clients  
+  + /etc/nsswitch.conf (alternative passwd)  
+  + ~/.ssh/authorized_keys or ~/.ssh/\<id_rsa\>  
+
 ### (4) post exploitation
 - simulators  
   + evilWinRm     
   + reverseShell (PayloadsAllTheThings)
   + <ps,rpc,smb,..>exec
 
-### (5) recon os
+### (4 too) recon os
 - user  
   + net users  
   + passwd  
@@ -67,7 +105,7 @@ STEPS:
   + tasklist  
   + ps aux  
 
-### (6) priv escalation
+### (5) priv escalation
 - files of admin  
   + payloadallthethings PayloadsAllTheThings/Windows%20-%20Privilege%20Escalation.md   
   + icacls | wmic service list full | find /i "pathname"  
@@ -79,20 +117,16 @@ STEPS:
   + local computer account of the domain
   + laps
 
-### (7) priv fixation
-- tasks  
-  + cron  
-  + APT::Update::Pre-Invoke {"cmdOrBackConnect"}; >> /etc/apt/apt.conf.d/  
-- clients  
-  + /etc/nsswitch.conf (alternative passwd)  
-  + ~/.ssh/authorized_keys  
-
 ### +) hiding actions (bypass ids)
 - encoding  
   + base64 wrapper
   + filter php
 - downgrade secure version
   + powershell -version 2
+
+### +) first access helper
+- content delivery
+  + pypi server
 
 ### +) research
 - osint  
@@ -117,3 +151,10 @@ STEPS:
 
 ### +) spec tools
 - user port number in hacktricks
+
+COMTRIBUTION - format
+### (step number) step  
+- space (injection,auth..)
+ + action (lfi,rce..)
+ 
+
