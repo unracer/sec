@@ -138,6 +138,9 @@ STEPS:
 ### +) fuzzing
 - try arethmetic exec
   + https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Intruder/ssti.fuzz
+  
+### +) ex
+- broserDevTools-net-copyAsCUrl sqlmap -u '\<cUrl\>'
 
 #
 
