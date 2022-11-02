@@ -3,6 +3,7 @@ IDEA:
 
 UNDERSTANDING (for non-eng country):
 - vu1n3rs is action witch you can make, but is not a magic steps
+- also you should think figuratively and abstract things that you think about (also helpfull in real life)
 
 TASK:  
 - we need shell  
@@ -88,6 +89,7 @@ STEPS:
 - clients  
   + /etc/nsswitch.conf (alternative passwd)  
   + ~/.ssh/authorized_keys or ~/.ssh/\<id_rsa\>  
+  + \<site-technologie\> configs
 
 ### (4) post exploitation
 - simulators  
