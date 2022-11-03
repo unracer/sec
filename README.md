@@ -55,8 +55,11 @@ STEPS:
 ### (2) entry point net
 - auth
   + easy cred
+  + weak config (no password)
 - access control  
   + lfi
+    * backups
+    * dbs
 
 ### (2.1) entry point web
 - injection  
@@ -97,7 +100,7 @@ STEPS:
   + reverseShell (PayloadsAllTheThings)
   + <ps,rpc,smb,..>exec
 
-### (4 too) recon os
+### (4.1) recon os
 - user  
   + net users  
   + passwd  
