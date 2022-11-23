@@ -60,6 +60,7 @@ STEPS:
   + lfi
     * backups
     * db's (read with DBbrowser)
+    * system configuration files (etc)
 
 ### (2.1) entry point web
 - injection  
