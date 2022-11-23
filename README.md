@@ -59,7 +59,7 @@ STEPS:
 - access control  
   + lfi
     * backups
-    * dbs
+    * db's (read with DBbrowser)
 
 ### (2.1) entry point web
 - injection  
