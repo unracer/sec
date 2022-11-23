@@ -114,11 +114,17 @@ STEPS:
 
 ### (5) priv escalation
 - files of admin  
-  + payloadallthethings PayloadsAllTheThings/Windows%20-%20Privilege%20Escalation.md   
+  + linpeas
+  + Kernel exploits
+  + Application vulnerabilities
+  + Misconfigurations such as weak file permissions
+  + Abuse of sudo
+  + Abuse of setuid and setgidCron jobs
+  + winpeas  
+  + PayloadsAllTheThings/Windows%20-%20Privilege%20Escalation.md
   + icacls | wmic service list full | find /i "pathname"  
   + exploit/windows/local/service_permis  
   + dll hijacking  
-  + winpeas https://github.com/carlospolop/PEASS-ng/releases/download/20220202/winPEASany_ofs.exe  
 - export/dump the password  
   + local computer account  
   + local computer account of the domain
