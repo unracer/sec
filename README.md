@@ -74,6 +74,7 @@ STEPS:
   + jsoni  
   + xslt  
   + ssrf
+  + xspa
 - auth  
   + easy cred prediction  
   + insufficient session expiration  
