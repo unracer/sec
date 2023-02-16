@@ -22,7 +22,7 @@ LINKS:
 
 STEPS:
 ### (0) access network (inguz@tg)
-- simple access
+- pivoting (access)
   + (Blackhole, Wormhole) - Abusing Dynamic Routing (OSPF, EIGRP, RIP, IS-IS)
   + (Malicious traffic Redirection) - Abusing FHRP Protocols (HSRP, VRRP, GLBP)
   + (evasion NAC) - Bypassing 802.1X
