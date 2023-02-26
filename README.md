@@ -51,6 +51,7 @@ STEPS:
 - headers of request / response
   + HOST: FUZZ.nofuzz.nofuzz
 - technologies src
+  + metadata of files generated of serverside or client side
 
 ### (2) entry point net
 - auth
