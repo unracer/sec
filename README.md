@@ -131,6 +131,8 @@ STEPS:
   + local computer account  
   + local computer account of the domain
   + laps
+- src
+  + creds
 
 ### +) hiding actions (bypass IDetectS/IPrevS)
 - encoding  
