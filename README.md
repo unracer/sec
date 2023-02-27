@@ -157,7 +157,7 @@ STEPS:
   
 ### +) ex
 - broserDevTools-net-copyAsCUrl sqlmap -u '\<cUrl\>'
-
+- if you see pdf converter and http request then search 'pdf ssrf rce ssti command injection'
 #
 
 COMTRIBUTION - format
