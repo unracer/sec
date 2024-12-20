@@ -68,7 +68,7 @@ STEPS:
   + xss  
   + ssti  
   + sqli  
-  + rce 
+  + rce via file upload
   + ssi  
   + xxe  
   + xpath  
@@ -110,9 +110,10 @@ STEPS:
   + shadow  
 - environment  
   + env  
-- process  
-  + tasklist  
-  + ps aux  
+- process  hacktricks.xyz/linux-hardening/privilege-escalation#processes
+  + systemctl  
+  + ps aux
+  + netstat -aon     
 
 ### (5) priv escalation
 - files of admin  
